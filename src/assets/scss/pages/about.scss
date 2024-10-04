@@ -1,0 +1,13 @@
+@use "../components/dropdown";
+@use "../components/container";
+
+.about {
+    margin-top: 20px;
+
+    .containerDropdown {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+}

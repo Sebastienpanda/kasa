@@ -1,0 +1,55 @@
+.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 113px 0 113px;
+
+    @media screen and (min-width: 1440px) {
+        margin: 139px 0 282px;
+    }
+
+    .notFoundChildren {
+        display: flex;
+        flex-direction: column;
+        gap: 113px;
+
+        @media screen and (min-width: 1440px) {
+            gap: 139px;
+        }
+
+        img {
+            @media screen and (min-width: 1440px) {
+                width: 597px;
+            }
+        }
+
+        h3 {
+            width: 260px;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: "Montserrat", sans-serif;
+            color: #ff6060;
+            line-height: 25.67px;
+
+            @media screen and (min-width: 1440px) {
+                font-size: 36px;
+                line-height: 51.34px;
+                width: 100%;
+            }
+        }
+
+        .link {
+            font-weight: 500;
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            text-decoration: underline;
+            line-height: 19.96px;
+
+            @media screen and (min-width: 1440px) {
+                font-size: 18px;
+                line-height: 25.67px;
+            }
+        }
+    }
+}

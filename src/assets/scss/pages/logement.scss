@@ -1,0 +1,111 @@
+@use "../components/container";
+@use "../components/slider";
+@use "../components/tag";
+@use "../components/rating";
+@use "../components/dropdown";
+
+.one {
+    margin-top: 27px;
+
+    @media screen and (min-width: 1440px) {
+        margin-top: 50px;
+    }
+
+    .top {
+        margin-top: 15px;
+
+        @media screen and (min-width: 1440px) {
+            margin-top: 30px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            .topContainer {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .h1 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 25.67px;
+            color: #ff6060;
+
+            @media screen and (min-width: 1440px) {
+                font-size: 36px;
+                line-height: 51.34px;
+            }
+        }
+
+        .p {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 19.96px;
+            margin-top: 5px;
+
+            @media screen and (min-width: 1440px) {
+                font-size: 18px;
+                line-height: 25.67px;
+            }
+        }
+    }
+
+    .author {
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (min-width: 1440px) {
+            margin-top: 0;
+            justify-content: start;
+            flex-direction: column-reverse;
+        }
+    }
+
+    .avatar {
+        display: flex;
+        gap: 10px;
+
+        p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 17.11px;
+            color: #ff6060;
+            width: 83px;
+            text-align: right;
+
+            @media screen and (min-width: 1440px) {
+                font-size: 18px;
+                line-height: 25.67px;
+            }
+        }
+
+        img {
+            border-radius: 50%;
+            max-width: 32px;
+            max-height: 32px;
+            width: 100%;
+            height: 100%;
+
+            @media screen and (min-width: 1440px) {
+                max-width: 64px;
+                max-height: 64px;
+            }
+        }
+    }
+
+    .containerDropdown {
+        margin-top: 13px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        @media screen and (min-width: 1440px) {
+            margin-top: 24px;
+            flex-direction: row;
+            gap: 30px;
+        }
+    }
+}
